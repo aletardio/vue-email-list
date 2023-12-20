@@ -10,7 +10,9 @@
 <body>
 
     <div id="app">
-        
+        <ul class="list-group list-group-numbered">
+            <li class="list-group-item" v-for="(email, index) in emails" :key="index"> {{ email }} </li>
+        </ul>
     </div>
 
 
